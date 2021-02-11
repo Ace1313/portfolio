@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="flexwrapper">
+            <p class="text1"> Alexander Cadjo</p>
+            <p class="text2">Developer</p>
+        </div>
+
+        <nav class="navigation">
+            <section class="navigation_icon">
+                <span class="topbar"></span>
+                <span class="middlebar"></span>
+                <span class="bottombar"></span>
+            </section>
+
+            <ul class="navigation_ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about_me">ABOUT</a></li>
+                <li><a href="#main">PROJECTS</a></li>
+                <li><a href="#mainfooter">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="gridwrapper">
+        <section id="about_me" class="about-me">
+            <div class="color">
+                <h1 class="rubrik">ABOUT</h1>
+            </div>
+
+            <article class="text">
+                <div class="textanimation">
+                    <p class="line-1 anim-typewriter">Hi and welcome! Im Alex.</p>
+                    <p class="info">Im currently studying at Jensen högskola to become a frontend developer. I have been
+                        living
+                        in Oslo for the past 7 years and returned to Sweden for education. So far im really enjoying
+                        frontend development and hope i can work with it in the future.</p>
+                </div>
+            </article>
+
+
+            <article class="image-area">
+                <div class="img-wrapper">
+                    <img src="images/alex1.jpg" alt="">
+                    <h2>Alex</h2>
+                    <ul>
+                        <li><a href="https://github.com/Ace1313" target="_blank"> <i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/aleksander-cadjo-017790205/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="skills">
+                <h1>My Skills</h1>
+                <figure class="grid__wrapper">
+                    <img src="images/html5.png" alt="">
+                    <img src="images/javascript.png" alt="">
+                    <img src="images/sass.png" alt="">
+                    <img src="images/css-3.png" alt="">
+                </figure>
+
+                <li>
+                    <h3>HTML</h3>
+                    <div class="bar">
+                        <div class="html"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>CSS</h3>
+                    <div class="bar">
+                        <div class="css"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>JAVASCRIPT</h3>
+                    <div class="bar">
+                        <div class="javascript"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>SASS</h3>
+                    <div class="bar">
+                        <div class="sass"></div>
+                    </div>
+                </li>
+            </article>
+            <figure class="jensen">
+                <img src="images/jensen.png" alt="">
+            </figure>
+        </section>
+        <section id="main">
+            <a href="https://github.com/Ace1313/First/tree/master" target="_blank" id="project1">The First</a>
+            <span id="project1img"></span>
+            <p class="ptext">My Projects</p>
+            <a href="https://github.com/Ace1313/Second" target="_blank" id="project2">The Second</a>
+            <span id="project2img"></span>
+            <span id="solidLayer"></span>
+        </section>
+    </main>
+    <footer id="mainfooter">
+        <section class="container">
+            <article class="box">
+                <h2>Do look up the links</h2>
+                <p>You can check my projects out on GitHub. Dont hesitate to add me on LinkedIn</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/alex.cadjo.3/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/alexcadj0/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Ace1313" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aleksander-cadjo-017790205/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="box">
+                <h2>Contact me</h2>
+                <form id="form" action="https://formspree.io/f/mrgodvqe" method="POST">
+                    <label for="mail">Email</label>
+                    <input type="email" name="email" id="mail" required>
+                    <label for="name">Name</label>
+                    <input type="name" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" maxlength="300" rows="3"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </article>
+        </section>
+        <aside class="author">
+            <p>copyright &copy; 2021</p>
+        </aside>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
